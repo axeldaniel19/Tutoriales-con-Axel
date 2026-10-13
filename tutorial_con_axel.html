@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b12">
+<title>Tutorial con Axel | Free Fire</title>
+<style>
+:root{--bg:#090b12;--panel:#121722;--panel2:#191f2d;--red:#ff3b46;--orange:#ff8a30;--text:#f4f6fb;--muted:#a7b0c2;--line:#2a3242}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top right,#30121c 0,transparent 38%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.wrap{width:min(1100px,92%);margin:auto}.top{position:sticky;top:0;z-index:5;background:#090b12eF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 0}.brand{font-weight:900;letter-spacing:.3px}.brand span{color:var(--red)}.navlinks{display:flex;gap:16px;font-size:.9rem;color:var(--muted)}.hero{padding:68px 0 52px;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}.tag{display:inline-block;color:#ffb2b6;border:1px solid #78323a;background:#35151b;padding:7px 11px;border-radius:999px;font-size:.78rem;font-weight:800;letter-spacing:1px}.hero h1{font-size:clamp(2.5rem,7vw,5rem);line-height:.98;margin:18px 0}.hero h1 em{font-style:normal;color:var(--red);text-shadow:0 0 30px #ff3b4640}.hero p{color:var(--muted);line-height:1.7;max-width:590px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:12px;padding:12px 16px;background:var(--panel2);color:var(--text);font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:var(--red)}.btn.primary{background:linear-gradient(120deg,var(--red),#ff6538);border:0;color:#16080a}.hero-art{min-height:285px;border:1px solid #5b2931;border-radius:24px;background:linear-gradient(145deg,#25121a,#111723 65%);display:grid;place-items:center;position:relative;overflow:hidden}.crosshair{width:185px;height:185px;border:2px solid #ff3b4680;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 60px #ff3b4625;position:relative}.crosshair:before,.crosshair:after{content:"";position:absolute;background:var(--red)}.crosshair:before{height:220px;width:1px}.crosshair:after{width:220px;height:1px}.crosshair b{font-size:4rem;z-index:1;text-shadow:0 0 25px #ff3b46}.art-label{position:absolute;bottom:16px;left:18px;font-weight:900;letter-spacing:2px;color:#ffb2b6}.section{padding:30px 0 45px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:20px}.section h2{font-size:clamp(1.6rem,4vw,2.3rem);margin:0}.section-head p{color:var(--muted);margin:7px 0 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:linear-gradient(150deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:10px;min-height:205px}.iconbox{width:45px;height:45px;border-radius:12px;display:grid;place-items:center;background:#3a171e;font-size:1.4rem}.card h3{margin:0;font-size:1.12rem}.card p{color:var(--muted);font-size:.93rem;line-height:1.55;margin:0;flex:1}.card .btn{align-self:flex-start;padding:9px 12px;font-size:.88rem}.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}.toolgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:grid;gap:7px;margin:12px 0}.field label{font-weight:700;font-size:.92rem}.field select,.field input,.field textarea{width:100%;padding:12px;background:#0c1018;border:1px solid var(--line);border-radius:10px;color:var(--text)}.result{margin-top:14px;border-left:3px solid var(--red);background:#0b1018;padding:14px;border-radius:8px;line-height:1.6;color:#e5e9f1}.result strong{color:#ff8c90}.checklist{display:grid;gap:11px;margin:14px 0}.check{display:flex;align-items:flex-start;gap:10px;color:#dce1eb}.check input{accent-color:var(--red);margin-top:5px;width:18px;height:18px}.progress{height:8px;background:#272e3d;border-radius:99px;overflow:hidden}.progress div{height:100%;background:linear-gradient(90deg,var(--red),var(--orange));width:0;transition:.2s}.small{font-size:.85rem;color:var(--muted)}.footer{border-top:1px solid var(--line);padding:25px 0 35px;color:var(--muted);font-size:.85rem;line-height:1.6}.footer strong{color:var(--text)}.notice{padding:13px 15px;border:1px solid #65432b;background:#24190f;border-radius:12px;color:#ffd4a6;font-size:.9rem;line-height:1.5}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:45px}.hero-art{min-height:220px}.grid{grid-template-columns:1fr}.toolgrid{grid-template-columns:1fr}.navlinks{gap:10px;font-size:.78rem}.nav{align-items:flex-start}.brand{font-size:.92rem}.section-head{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav"><a class="brand" href="#inicio">TUTORIAL <span>CON AXEL</span></a><nav class="navlinks"><a href="#guias">Guías</a><a href="#sensibilidad">Sensibilidad</a><a href="#entrenamiento">Entrenar</a></nav></div></header>
+<main>
+<section class="wrap hero" id="inicio">
+ <div><span class="tag">ZONA GAMER • FREE FIRE</span><h1>JUEGA MEJOR.<br><em>SUBE DE NIVEL.</em></h1><p>Bienvenido a Tutorial con Axel: guías sencillas para mejorar tu puntería, ajustar tus controles y practicar con cabeza. Elige una sección y empieza.</p><div class="actions"><a class="btn primary" href="#guias">Ver tutoriales ↗</a><a class="btn" href="#sensibilidad">Probar herramientas</a></div></div>
+ <div class="hero-art" aria-label="Diseño gamer con mira"><div class="crosshair"><b>AX</b></div><div class="art-label">AIM • PRACTICE • IMPROVE</div></div>
+</section>
+<section class="wrap section" id="guias"><div class="section-head"><div><h2>📚 Tutoriales rápidos</h2><p>Consejos claros para practicar en Free Fire.</p></div></div>
+<div class="grid">
+ <article class="card"><div class="iconbox">🎯</div><h3>Mejora tu puntería</h3><p>Practica el seguimiento del objetivo y mueve la mira con control. Empieza despacio y aumenta la velocidad poco a poco.</p><button class="btn" onclick="showTip('punteria')">Ver consejo</button></article>
+ <article class="card"><div class="iconbox">⚙️</div><h3>Configura controles</h3><p>Coloca los botones donde tus dedos lleguen cómodamente. Prueba cada cambio en entrenamiento antes de jugar clasificatoria.</p><button class="btn" onclick="showTip('controles')">Ver consejo</button></article>
+ <article class="card"><div class="iconbox">🧠</div><h3>Juega con estrategia</h3><p>Usa cobertura, escucha los pasos y evita correr por zonas abiertas sin revisar el entorno.</p><button class="btn" onclick="showTip('estrategia')">Ver consejo</button></article>
+</div><div class="result" id="tipResult" aria-live="polite">Selecciona “Ver consejo” en cualquier tarjeta para ver un tip.</div></section>
+<section class="wrap section" id="sensibilidad"><div class="section-head"><div><h2>🎚️ Laboratorio de sensibilidad</h2><p>Una herramienta interactiva para registrar tu prueba. No cambia la configuración del juego automáticamente.</p></div></div>
+<div class="panel"><div class="toolgrid"><div><div class="field"><label for="device">Dispositivo</label><select id="device"><option>Motorola G24</option><option>Otro Android</option><option>Emulador / PC</option></select></div><div class="field"><label for="aim">¿Qué pasa con tu mira?</label><select id="aim"><option value="sube">La mira se pasa por arriba</option><option value="pecho">Se queda en el pecho</option><option value="lenta">Se siente lenta</option><option value="inestable">Tiembla o se mueve demasiado</option></select></div><div class="field"><label for="style">Cómo juegas</label><select id="style"><option value="arrastre">Arrastre para subir mira</option><option value="control">Movimientos cortos y controlados</option></select></div><button class="btn primary" onclick="makeAdvice()">Generar recomendación</button></div><div><h3 style="margin-top:0">Tu recomendación</h3><div class="result" id="sensResult" aria-live="polite">Elige tus opciones y toca “Generar recomendación”. La recomendación será un punto de partida, no una configuración universal.</div><p class="small">Consejo: cambia un solo ajuste cada vez y prueba varias rondas en el campo de entrenamiento.</p></div></div></div></section>
+<section class="wrap section" id="entrenamiento"><div class="section-head"><div><h2>✅ Reto de entrenamiento</h2><p>Marca tus ejercicios y revisa tu progreso.</p></div></div>
+<div class="panel"><div class="row" style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><strong>Sesión de práctica</strong><span class="small" id="progressText">0 de 5 completados</span></div><div class="progress" style="margin:12px 0 18px"><div id="progressBar"></div></div><div class="checklist">
+<label class="check"><input type="checkbox" class="task"> Calentar en entrenamiento durante 3 minutos</label>
+<label class="check"><input type="checkbox" class="task"> Practicar seguimiento de un objetivo en movimiento</label>
+<label class="check"><input type="checkbox" class="task"> Probar el botón de disparo y el HUD</label>
+<label class="check"><input type="checkbox" class="task"> Jugar una partida priorizando la cobertura</label>
+<label class="check"><input type="checkbox" class="task"> Anotar qué ajuste me funcionó mejor</label>
+</div><button class="btn" onclick="resetTasks()">Reiniciar reto</button><p class="small" id="congrats" aria-live="polite"></p></div></section>
+<section class="wrap section"><div class="notice"><strong>Importante:</strong> esta página es una guía hecha por fans y no está afiliada a Garena. No ofrece diamantes, hacks ni ventajas automáticas. Usa solo métodos permitidos por el juego.</div></section>
+</main>
+<footer class="footer"><div class="wrap"><strong>Tutorial con Axel</strong><br>Contenido de apoyo para la comunidad de Free Fire. Free Fire y sus marcas pertenecen a sus respectivos propietarios.<br>Hecha para verse bien en celular y computadora.</div></footer>
+<script>
+const tips={
+punteria:"<strong>Ejercicio:</strong> mantén la mira cerca de la altura del objetivo, haz movimientos pequeños y practica ráfagas cortas. La consistencia importa más que mover rápido el dedo.",
+controles:"<strong>Ejercicio:</strong> abre el editor de HUD, acomoda primero disparo, salto y agacharse; después prueba en entrenamiento. Guarda una captura de tu distribución antes de cambiarla.",
+estrategia:"<strong>Ejercicio:</strong> muévete de cobertura en cobertura, escucha el audio y revisa el mapa. No persigas cada enfrentamiento: elige cuándo pelear."
+};
+function showTip(key){document.getElementById('tipResult').innerHTML=tips[key];}
+function makeAdvice(){
+ const aim=document.getElementById('aim').value, style=document.getElementById('style').value, device=document.getElementById('device').value;
+ let msg="";
+ if(aim==="sube") msg="La mira se pasa por arriba: prueba reducir un poco la sensibilidad que más influye en tu mira y repite la misma prueba.";
+ if(aim==="pecho") msg="Se queda en el pecho: practica un arrastre corto y controlado. Si sigue igual, sube ligeramente un ajuste y vuelve a probar.";
+ if(aim==="lenta") msg="Se siente lenta: aumenta un poco el ajuste relacionado con la mira y revisa que el teléfono no esté con ahorro de batería que afecte el rendimiento.";
+ if(aim==="inestable") msg="Tiembla demasiado: prueba bajar un poco la sensibilidad, limpia la pantalla y usa movimientos más cortos.";
+ msg += style==="arrastre" ? " Como usas arrastre, evita levantar el dedo demasiado pronto." : " Con movimientos cortos, prioriza precisión y repite el mismo gesto.";
+ msg += " Dispositivo: "+device+". Cambia solo un ajuste por vez; no hay un valor perfecto para todos.";
+ document.getElementById('sensResult').textContent=msg;
+}
+const tasks=[...document.querySelectorAll('.task')];
+function updateProgress(){const n=tasks.filter(t=>t.checked).length;document.getElementById('progressText').textContent=n+' de 5 completados';document.getElementById('progressBar').style.width=(n/5*100)+'%';document.getElementById('congrats').textContent=n===5?'¡Reto completado! Buen trabajo, Axel.':"";}
+tasks.forEach(t=>t.addEventListener('change',updateProgress));
+function resetTasks(){tasks.forEach(t=>t.checked=false);updateProgress();}
+</script>
+</body>
+</html>
